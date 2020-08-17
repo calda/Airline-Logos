@@ -34,7 +34,7 @@ enum AirlineCode {
         case .icao(let icaoCode):
             return URL(string: "https://flightaware.com/images/airline_logos/90p/\(icaoCode).png")
         case .iata(let iataCode):
-            return URL(string: "https://a1.r9cdn.net/rimg/provider-logos/airlines/v/\(iataCode).png?crop=false&width=300&height=300")
+            return URL(string: "https://content.r9cdn.net/rimg/provider-logos/airlines/v/\(iataCode).png?crop=false&width=300&height=300")
         }
     }
     
